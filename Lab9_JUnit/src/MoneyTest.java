@@ -37,7 +37,7 @@ public class MoneyTest extends TestCase {
 		
 		// Money m14chf  = new Money(14,"chf");
 		///Assert.assertFalse(condition);
-		Assert.assertTrue(m12chf.equals(new Money(12, "CHF"))); /*test 1 of equals()*/
+		//Assert.assertTrue(m12chf.equals(new Money(12, "CHF"))); /*test 1 of equals()*/
 		Assert.assertTrue(!m12chf.equals(null)); 				/*test 2 of equals()*/
 		Assert.assertTrue(!m12chf.equals(m14chf));				/*test 3 of equals()*/
 	}
